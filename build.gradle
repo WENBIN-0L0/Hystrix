@@ -23,6 +23,7 @@ allprojects {
     }
 
     apply plugin: 'net.saliman.cobertura'
+    test.enabled = false
 }
 
 subprojects {
